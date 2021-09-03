@@ -136,6 +136,7 @@ for k in range(3,len(loop_this)+2):
         print('failed.')
     else:
         print('Succeeded.')
+        wb.Close(True)
         xlApp.Quit()
         del xlApp
 
